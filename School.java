@@ -1,5 +1,33 @@
 class Results{
-    int phy,che,mat;
+    private int phy,che,mat;
+
+    public void physics(int marks){
+        if(marks>=0 && marks<=150){
+            phy=marks;
+        }
+        else{
+            System.out.println("Invalid mark for Physics.");
+        }
+    }
+
+    public void chemistry(int marks){
+        if(marks>=0 && marks<=150){
+            che=marks;
+        }
+        else{
+            System.out.println("Invalid mark for Chemistry.");
+        }
+    }
+
+    public void maths(int marks){
+        if(marks>=0 && marks<=150){
+            mat=marks;
+        }
+        else{
+            System.out.println("Invalid mark for Maths.");
+        }
+    }
+
     public void showResults(){
         int total;
         total = phy+che+mat;
@@ -15,16 +43,11 @@ class Results{
 
 class School{
     public static void main (String abc[]){
-        Results person1,person2;
+        Results person1;
         person1 = new Results();
-        person2 = new Results();
-        person1.mat=60;
-        person1.phy=50;
-        person1.che=80;
-        person2.mat=70;
-        person2.che=100;
-        person2.phy=90;
+        person1.maths(140);
+        person1.physics(90);
+        person1.chemistry(100);
         person1.showResults();
-        person2.showResults();
     }
 }
