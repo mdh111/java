@@ -3,7 +3,7 @@ class First{
     int y;
 }
 
-class Test {
+class Test{
     public static void main (String abc[]){
         First ref;
         ref = new First();
@@ -11,5 +11,4 @@ class Test {
         ref.y=20;
         System.out.println("The result is: " + (ref.x + ref.y));
     }
-    
 }
