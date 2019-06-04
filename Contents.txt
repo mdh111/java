@@ -14,3 +14,4 @@
 14 - NBS - Private method being called from within a public method
 15 - AccountsTest - How to use FLOATS and DOUBLES. With METHOD OVERLOADING.
 16 - Manchester - Creating a class with multiple CONSTRUCTORS that accept different parameters.
+17 - TestBank - Using STATIC and NON-STATIC.
