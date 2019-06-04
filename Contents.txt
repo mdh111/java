@@ -1,0 +1,13 @@
+1 - First - First java program
+2 - Result - Second java program
+3 - Loop1 - WHILE loop
+4 - Loop2 - FOR loop
+5 - Loop3 - FOR loop. No initialisation or update
+6 - Loop4 - FOR loop with multiple initialisations, updates and boolean operators
+7 - Test - First time creating an object from a class
+8 - Test2 - Create an object from a class which has data members and a method
+9 - School - Private members in a class and making public methods to update them
+10 - MathsTest - Methods returning an int
+11 - TimesTables - FOR loop and SWITCH
+12 - TimesTables2 - FOR loop inside a FOR loop
+13 - College - Private members in a class, including a private method and making public methods to update them
