@@ -44,17 +44,20 @@ class DigitsToWords{
         if (toConvert == 0){
             result = "zero";
         }
+        if (toConvert<0 || toConvert>9999){
+            result = "Number out of range. Can only convert numbers from 0-9999";
+        }
         if(toConvert>=1000 && toConvert<=9999){
             result += convertSingle(toConvert/1000);
             result += " thousand ";
             toConvert=toConvert%1000;
         }
-        if(toConvert>=100){
+        if(toConvert>=100 && toConvert<1000){
             result += convertSingle(toConvert/100);
             result += " hundred ";
             toConvert=toConvert%100;
         }
-        if(toConvert>=20){
+        if(toConvert>=20 && toConvert<100){
             result += convertDouble((toConvert/10)*10);
             result += " ";
             toConvert=toConvert%10;
@@ -69,6 +72,6 @@ class DigitsToWords{
 class TestDigitsToWords{
     public static void main (String abc[]){
         DigitsToWords test = new DigitsToWords();
-        System.out.println(test.convertNumber(3246));
+        System.out.println(test.convertNumber(43567));
     }
 }
