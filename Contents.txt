@@ -20,3 +20,4 @@
 20 - Abstract - ABSTRACT classes. Creating an abstract class and then child classes inheriting the abstract class, required to change the methods
 21 - Final - FINAL methods and classes with INHERITANCE
 22 - Inheritance - Unable to call a method from the child class, when the refernce variable is of the parent class
+23 - PassingObjectReferences - calling a method which accepts a reference variable of an object as its parameter
