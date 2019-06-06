@@ -22,3 +22,5 @@
 22 - Inheritance - Unable to call a method from the child class, when the refernce variable is of the parent class
 23 - PassingObjectReferences - calling a method which accepts a reference variable of an object as its parameter
 24 - This - using this to refer to class variables created in an object
+25 - SuperAndThis - using the keywords SUPER and THIS in constructors
+26 - StringProcessingTest - String EQUALS, SUBSTRING and LENGTH. Four methods on strings
