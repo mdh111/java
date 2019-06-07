@@ -24,3 +24,5 @@
 24 - This - using this to refer to class variables created in an object
 25 - SuperAndThis - using the keywords SUPER and THIS in constructors
 26 - StringProcessingTest - String EQUALS, SUBSTRING and LENGTH. Four methods on strings
+27 - Arrays - Creating and iterating over arrays
+28 - Arrays2 - Using the main args array to accept input from the cmd line
