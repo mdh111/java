@@ -78,10 +78,7 @@ class StringProcessing{
         String newMsg = "";
         for(;i<msg.length();i++){
             if(msg.substring(i,i+1).equals(" ")){
-                if(findWord(newMsg,word)){
-                    //break;
-                }
-                else{
+                if(!findWord(newMsg,word)){
                     newMsg += word + " ";
                 }
                 word="";
@@ -93,8 +90,6 @@ class StringProcessing{
         System.out.println(newMsg);
     }
 }
-
-
 
 class StringProcessingTest{
     public static void main (String abc[]){
